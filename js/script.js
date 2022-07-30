@@ -52,11 +52,6 @@ displayResult(playerMove, computerMove);
   
 }
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> eff5735a8f51af20d5e3f032190393f12e5e4289
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
 buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
