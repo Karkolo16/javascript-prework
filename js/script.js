@@ -2,12 +2,14 @@ const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
 const buttonScissors = document.getElementById('button-scissors');
 
+let argButtonName;
 
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argMoveId,playerInput;
+  var playerInput;
 
+let argMoveId;
 
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
