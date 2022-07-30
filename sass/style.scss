@@ -1,0 +1,45 @@
+h1 {
+    text-align:center;
+    font-size:58px;
+    text-decoration:underline;
+    color:coral;
+
+}
+h2{
+    text-align:center;
+    padding:15px;
+}
+
+a{
+    margin:auto;
+}
+
+.btn {
+    
+        padding: 16px;
+        border-radius: 5px;
+        font-family: 'Inconsolata', 'sans-serif';
+        font-size:16px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-width: 2px;
+        border-style: solid;
+        color:coral;
+        margin:auto;
+    
+}
+
+
+.container{
+    
+        max-width: 1140px;
+        padding: 50px;
+        margin: auto; 
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+
