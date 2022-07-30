@@ -6,7 +6,7 @@ const buttonScissors = document.getElementById('button-scissors');
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argMoveId, argPlayerMove, argComputerMove, playerInput;
+  var argMoveId,playerInput;
 
 
 function getMoveName(argMoveId) {
@@ -23,6 +23,7 @@ function getMoveName(argMoveId) {
   }
 }
 
+let argPlayerMove, argComputerMove;
 
 function displayResult(argPlayerMove, argComputerMove) {
   console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
